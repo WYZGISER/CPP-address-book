@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\10920\Desktop\demo\GLXT\</FILEPATH>
+      <FILENAME>demo1.cpp</FILENAME>
+      <LINE>182</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>函数使用堆叠的 "128052" 字节。请考虑将一些数据移动到堆。</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\10920\Desktop\demo\GLXT\</FILEPATH>
+      <FILENAME>demo1.cpp</FILENAME>
+      <LINE>45</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 Addressbooks::m_Size。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>Addressbooks::{ctor}</FUNCTION>
+    <DECORATED>??0Addressbooks@@QEAA@XZ</DECORATED>
+    <FUNCLINE>45</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Addressbooks::m_Size</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\10920\Desktop\demo\GLXT\</FILEPATH>
+      <FILENAME>demo1.cpp</FILENAME>
+      <LINE>38</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 Person::m_Sex。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>Person::{ctor}</FUNCTION>
+    <DECORATED>??0Person@@QEAA@XZ</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Person::m_Sex</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
